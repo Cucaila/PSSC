@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Facultate\\Anul 4\\PSSC labs\\Lab solutie\\lab3\\lab3\\lab3.csproj": {}
+    "C:\\Facultate\\Anul 4\\PSSC labs\\Lab solutie\\lab3\\lab3\\Exemple\\lab3.csproj": {}
   },
   "projects": {
-    "C:\\Facultate\\Anul 4\\PSSC labs\\Lab solutie\\lab3\\lab3\\lab3.csproj": {
+    "C:\\Facultate\\Anul 4\\PSSC labs\\Lab solutie\\lab3\\lab3\\Exemple\\lab3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Facultate\\Anul 4\\PSSC labs\\Lab solutie\\lab3\\lab3\\lab3.csproj",
+        "projectUniqueName": "C:\\Facultate\\Anul 4\\PSSC labs\\Lab solutie\\lab3\\lab3\\Exemple\\lab3.csproj",
         "projectName": "lab3",
-        "projectPath": "C:\\Facultate\\Anul 4\\PSSC labs\\Lab solutie\\lab3\\lab3\\lab3.csproj",
+        "projectPath": "C:\\Facultate\\Anul 4\\PSSC labs\\Lab solutie\\lab3\\lab3\\Exemple\\lab3.csproj",
         "packagesPath": "C:\\Users\\adinu\\.nuget\\packages\\",
-        "outputPath": "C:\\Facultate\\Anul 4\\PSSC labs\\Lab solutie\\lab3\\lab3\\obj\\",
+        "outputPath": "C:\\Facultate\\Anul 4\\PSSC labs\\Lab solutie\\lab3\\lab3\\Exemple\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "CSharp.Choices": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "CSharp.Choices.Attributes": {
               "target": "Package",
               "version": "[2.1.1, )"
             }

@@ -1,0 +1,5 @@
+C:\Facultate\Anul 4\PSSC labs\Lab solutie\lab3\lab3\Exemple\obj\Debug\net6.0\lab3.csproj.AssemblyReference.cache
+C:\Facultate\Anul 4\PSSC labs\Lab solutie\lab3\lab3\Exemple\obj\Debug\net6.0\lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultate\Anul 4\PSSC labs\Lab solutie\lab3\lab3\Exemple\obj\Debug\net6.0\lab3.AssemblyInfoInputs.cache
+C:\Facultate\Anul 4\PSSC labs\Lab solutie\lab3\lab3\Exemple\obj\Debug\net6.0\lab3.AssemblyInfo.cs
+C:\Facultate\Anul 4\PSSC labs\Lab solutie\lab3\lab3\Exemple\obj\Debug\net6.0\lab3.csproj.CoreCompileInputs.cache

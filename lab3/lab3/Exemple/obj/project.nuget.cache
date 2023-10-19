@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kPT42z8mPplEWXQiKNSjjGeo8SmBFOm6z2c8BvjRB0l2N3bQ1Eq4EPyFwlwY1MCBiymHeOb1MFsThcRIfsj7TA==",
+  "dgSpecHash": "fDFz66/+aazFftORWoZ5BggSam4MJHcanJe+k1OlKP0HYUcrBYDwazPr8Kt0eJ/x05ultW/E/72zpm0ktud6ZA==",
   "success": true,
-  "projectFilePath": "C:\\Facultate\\Anul 4\\PSSC labs\\Lab solutie\\lab3\\lab3\\lab3.csproj",
+  "projectFilePath": "C:\\Facultate\\Anul 4\\PSSC labs\\Lab solutie\\lab3\\lab3\\Exemple\\lab3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adinu\\.nuget\\packages\\csharp.choices\\2.1.1\\csharp.choices.2.1.1.nupkg.sha512",
     "C:\\Users\\adinu\\.nuget\\packages\\csharp.choices.attributes\\2.1.1\\csharp.choices.attributes.2.1.1.nupkg.sha512",
