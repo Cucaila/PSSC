@@ -1,9 +1,8 @@
 ﻿using lab3.Exceptions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using LanguageExt;
+using static LanguageExt.Prelude;
+
+
 
 namespace lab3.Models
 {
@@ -23,21 +22,17 @@ namespace lab3.Models
             }
         }
 
-        public static bool TryParseProductPrice(string priceString, out ProductPrice price)
+        public static Option<ProductPrice> TryParseProductPrice(string priceString)
         {
-            bool isValid = false;
-            price = null;
-
-            if (decimal.TryParse(priceString, out decimal numericPrice))
+            if (decimal.TryParse(priceString, out decimal numericPrice) && isValid(numericPrice))
             {
-                if (numericPrice > 0)
-                {
-                    isValid = true;
-                    price = new(numericPrice);
-                }
+                return Some<ProductPrice>(new(numericPrice));
             }
-
-            return isValid;
+            else
+            {
+                return None;
+            } 
         }
+        private static bool isValid(decimal numericPrice) => numericPrice > 0;
     }
 }

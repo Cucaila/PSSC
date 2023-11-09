@@ -44,6 +44,28 @@ namespace lab3.Models
             public IReadOnlyCollection<ValidatedShoppingCartProduct> ShoppingCartProducts { get; }
         }
 
+        public record ValidateShoppingCart : IShoppingCartState
+        {
+            internal ValidateShoppingCart(IReadOnlyCollection<ValidatedShoppingCartProduct> productList)
+            {
+                ProductList = productList;
+            }
+
+            public IReadOnlyCollection<ValidatedShoppingCartProduct> ProductList { get; }
+        }
+
+        public record InvalidShoppingCart : IShoppingCartState
+        {
+            internal InvalidShoppingCart(IReadOnlyCollection<UnvalidatedShoppingCartProduct> listShoppingCartPrice, string reason)
+            {
+                ShoppingCartList = listShoppingCartPrice;
+                Reason = reason;
+            }
+
+            public IReadOnlyCollection<UnvalidatedShoppingCartProduct> ShoppingCartList { get; }
+            public string Reason { get; }
+        }
+
         public record CalculatedShoppingCart : IShoppingCartState
         {
             public CalculatedShoppingCart(IReadOnlyCollection<CalculatedShoppingCartProduct> shoppingCartList)
